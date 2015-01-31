@@ -1,0 +1,13 @@
+//
+//  GameScene.h
+//  Puppyteer
+//
+
+//  Copyright (c) 2015 Kallio. All rights reserved.
+//
+
+#import <SpriteKit/SpriteKit.h>
+
+@interface GameScene : SKScene
+
+@end
