@@ -7,10 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1BA05D1A802342009B63BF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1BA05C1A802342009B63BF /* libxml2.2.dylib */; };
+		4A1BA0611A815156009B63BF /* SharedImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BA0601A815156009B63BF /* SharedImages.atlas */; };
+		4A1BA0631A8151AA009B63BF /* HudImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4A1BA0621A8151AA009B63BF /* HudImages.atlas */; };
+		4A4296891A7EC394008DFC13 /* GameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4296881A7EC394008DFC13 /* GameLevel.m */; };
+		4A6833E11A7CE73D0065CF55 /* libJKGameKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC14FEE1A7CE43A000EDB1F /* libJKGameKit.a */; };
+		4A6833E51A7CEA850065CF55 /* HudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833E41A7CEA850065CF55 /* HudNode.m */; };
+		4A6833EF1A7CEAA90065CF55 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833EB1A7CEAA90065CF55 /* GameData.m */; };
+		4A6833F01A7CEAA90065CF55 /* NodeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833ED1A7CEAA90065CF55 /* NodeFactory.m */; };
+		4A6833F41A7CEFF20065CF55 /* PluginAnimationHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833F31A7CEFF20065CF55 /* PluginAnimationHero.m */; };
+		4A6833FB1A7CF02B0065CF55 /* PluginContactHandlerHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833F81A7CF02B0065CF55 /* PluginContactHandlerHero.m */; };
+		4A6833FC1A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833FA1A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.m */; };
+		4A6834001A7CF03D0065CF55 /* PluginCtrlHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6833FF1A7CF03D0065CF55 /* PluginCtrlHero.m */; };
+		4A6834041A7CF05A0065CF55 /* PluginTouchHandlerHudButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6834031A7CF05A0065CF55 /* PluginTouchHandlerHudButton.m */; };
+		4A6834091A7D14B30065CF55 /* ActionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6834081A7D14B30065CF55 /* ActionBase.m */; };
+		4A68340C1A7D151F0065CF55 /* ActionRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68340B1A7D151F0065CF55 /* ActionRun.m */; };
+		4A68340F1A7D15D20065CF55 /* ActionWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A68340E1A7D15D20065CF55 /* ActionWait.m */; };
+		4A6834121A7D16100065CF55 /* ActionJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6834111A7D16100065CF55 /* ActionJump.m */; };
+		4A6834151A7D1B2F0065CF55 /* ActionStand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6834141A7D1B2F0065CF55 /* ActionStand.m */; };
 		4AEFD3261A7CDF980067AB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFD3251A7CDF980067AB7B /* main.m */; };
 		4AEFD3291A7CDF980067AB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFD3281A7CDF980067AB7B /* AppDelegate.m */; };
 		4AEFD32C1A7CDF980067AB7B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFD32B1A7CDF980067AB7B /* GameScene.m */; };
-		4AEFD32E1A7CDF980067AB7B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AEFD32D1A7CDF980067AB7B /* GameScene.sks */; };
 		4AEFD3311A7CDF980067AB7B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEFD3301A7CDF980067AB7B /* GameViewController.m */; };
 		4AEFD3341A7CDF980067AB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEFD3321A7CDF980067AB7B /* Main.storyboard */; };
 		4AEFD3361A7CDF980067AB7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEFD3351A7CDF980067AB7B /* Images.xcassets */; };
@@ -19,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4AC14FED1A7CE43A000EDB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC14FE81A7CE43A000EDB1F /* JKGameKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4AA0F80C1A06DEC600E5756D;
+			remoteInfo = JKGameKit;
+		};
+		4AC14FEF1A7CE43A000EDB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC14FE81A7CE43A000EDB1F /* JKGameKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4AA0F8171A06DEC600E5756D;
+			remoteInfo = JKGameKitTests;
+		};
 		4AEFD33F1A7CDF980067AB7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4AEFD3181A7CDF980067AB7B /* Project object */;
@@ -29,6 +60,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A1BA05C1A802342009B63BF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		4A1BA0601A815156009B63BF /* SharedImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SharedImages.atlas; sourceTree = "<group>"; };
+		4A1BA0621A8151AA009B63BF /* HudImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HudImages.atlas; sourceTree = "<group>"; };
+		4A4296871A7EC394008DFC13 /* GameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevel.h; sourceTree = "<group>"; };
+		4A4296881A7EC394008DFC13 /* GameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevel.m; sourceTree = "<group>"; };
+		4A6833E31A7CEA850065CF55 /* HudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudNode.h; sourceTree = "<group>"; };
+		4A6833E41A7CEA850065CF55 /* HudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudNode.m; sourceTree = "<group>"; };
+		4A6833E91A7CEAA90065CF55 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		4A6833EA1A7CEAA90065CF55 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		4A6833EB1A7CEAA90065CF55 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		4A6833EC1A7CEAA90065CF55 /* NodeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeFactory.h; sourceTree = "<group>"; };
+		4A6833ED1A7CEAA90065CF55 /* NodeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeFactory.m; sourceTree = "<group>"; };
+		4A6833F21A7CEFF20065CF55 /* PluginAnimationHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginAnimationHero.h; sourceTree = "<group>"; };
+		4A6833F31A7CEFF20065CF55 /* PluginAnimationHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginAnimationHero.m; sourceTree = "<group>"; };
+		4A6833F71A7CF02B0065CF55 /* PluginContactHandlerHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginContactHandlerHero.h; sourceTree = "<group>"; };
+		4A6833F81A7CF02B0065CF55 /* PluginContactHandlerHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginContactHandlerHero.m; sourceTree = "<group>"; };
+		4A6833F91A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginContactHandlerHeroJumpSensor.h; sourceTree = "<group>"; };
+		4A6833FA1A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginContactHandlerHeroJumpSensor.m; sourceTree = "<group>"; };
+		4A6833FE1A7CF03D0065CF55 /* PluginCtrlHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginCtrlHero.h; sourceTree = "<group>"; };
+		4A6833FF1A7CF03D0065CF55 /* PluginCtrlHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginCtrlHero.m; sourceTree = "<group>"; };
+		4A6834021A7CF05A0065CF55 /* PluginTouchHandlerHudButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginTouchHandlerHudButton.h; sourceTree = "<group>"; };
+		4A6834031A7CF05A0065CF55 /* PluginTouchHandlerHudButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginTouchHandlerHudButton.m; sourceTree = "<group>"; };
+		4A6834071A7D14B30065CF55 /* ActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionBase.h; sourceTree = "<group>"; };
+		4A6834081A7D14B30065CF55 /* ActionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionBase.m; sourceTree = "<group>"; };
+		4A68340A1A7D151F0065CF55 /* ActionRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionRun.h; sourceTree = "<group>"; };
+		4A68340B1A7D151F0065CF55 /* ActionRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionRun.m; sourceTree = "<group>"; };
+		4A68340D1A7D15D20065CF55 /* ActionWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionWait.h; sourceTree = "<group>"; };
+		4A68340E1A7D15D20065CF55 /* ActionWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionWait.m; sourceTree = "<group>"; };
+		4A6834101A7D16100065CF55 /* ActionJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionJump.h; sourceTree = "<group>"; };
+		4A6834111A7D16100065CF55 /* ActionJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionJump.m; sourceTree = "<group>"; };
+		4A6834131A7D1B2F0065CF55 /* ActionStand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionStand.h; sourceTree = "<group>"; };
+		4A6834141A7D1B2F0065CF55 /* ActionStand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionStand.m; sourceTree = "<group>"; };
+		4AC14FE81A7CE43A000EDB1F /* JKGameKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JKGameKit.xcodeproj; path = ../Lib/JKGameKit/JKGameKit.xcodeproj; sourceTree = "<group>"; };
 		4AEFD3201A7CDF980067AB7B /* Puppyteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puppyteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEFD3241A7CDF980067AB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AEFD3251A7CDF980067AB7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +100,6 @@
 		4AEFD3281A7CDF980067AB7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4AEFD32A1A7CDF980067AB7B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		4AEFD32B1A7CDF980067AB7B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		4AEFD32D1A7CDF980067AB7B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4AEFD32F1A7CDF980067AB7B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		4AEFD3301A7CDF980067AB7B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		4AEFD3331A7CDF980067AB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1BA05D1A802342009B63BF /* libxml2.2.dylib in Frameworks */,
+				4A6833E11A7CE73D0065CF55 /* libJKGameKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +130,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4296851A7EC2D6008DFC13 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				4A4296871A7EC394008DFC13 /* GameLevel.h */,
+				4A4296881A7EC394008DFC13 /* GameLevel.m */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		4A6833E61A7CEA920065CF55 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4A6833E91A7CEAA90065CF55 /* Defines.h */,
+				4A6833EA1A7CEAA90065CF55 /* GameData.h */,
+				4A6833EB1A7CEAA90065CF55 /* GameData.m */,
+				4A6833EC1A7CEAA90065CF55 /* NodeFactory.h */,
+				4A6833ED1A7CEAA90065CF55 /* NodeFactory.m */,
+			);
+			name = Common;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4A6833F11A7CEFDB0065CF55 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				4A6834061A7D14720065CF55 /* Actions */,
+				4A6833F51A7CF0050065CF55 /* Animations */,
+				4A6833F61A7CF0190065CF55 /* ContactHandlers */,
+				4A6833FD1A7CF0320065CF55 /* Controllers */,
+				4A6834011A7CF0480065CF55 /* TouchHandlers */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		4A6833F51A7CF0050065CF55 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4A6833F21A7CEFF20065CF55 /* PluginAnimationHero.h */,
+				4A6833F31A7CEFF20065CF55 /* PluginAnimationHero.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		4A6833F61A7CF0190065CF55 /* ContactHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				4A6833F71A7CF02B0065CF55 /* PluginContactHandlerHero.h */,
+				4A6833F81A7CF02B0065CF55 /* PluginContactHandlerHero.m */,
+				4A6833F91A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.h */,
+				4A6833FA1A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.m */,
+			);
+			name = ContactHandlers;
+			sourceTree = "<group>";
+		};
+		4A6833FD1A7CF0320065CF55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A6833FE1A7CF03D0065CF55 /* PluginCtrlHero.h */,
+				4A6833FF1A7CF03D0065CF55 /* PluginCtrlHero.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4A6834011A7CF0480065CF55 /* TouchHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				4A6834021A7CF05A0065CF55 /* PluginTouchHandlerHudButton.h */,
+				4A6834031A7CF05A0065CF55 /* PluginTouchHandlerHudButton.m */,
+			);
+			name = TouchHandlers;
+			sourceTree = "<group>";
+		};
+		4A6834051A7CF1B70065CF55 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4AEFD32A1A7CDF980067AB7B /* GameScene.h */,
+				4AEFD32B1A7CDF980067AB7B /* GameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		4A6834061A7D14720065CF55 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				4A6834071A7D14B30065CF55 /* ActionBase.h */,
+				4A6834081A7D14B30065CF55 /* ActionBase.m */,
+				4A68340A1A7D151F0065CF55 /* ActionRun.h */,
+				4A68340B1A7D151F0065CF55 /* ActionRun.m */,
+				4A68340D1A7D15D20065CF55 /* ActionWait.h */,
+				4A68340E1A7D15D20065CF55 /* ActionWait.m */,
+				4A6834101A7D16100065CF55 /* ActionJump.h */,
+				4A6834111A7D16100065CF55 /* ActionJump.m */,
+				4A6834131A7D1B2F0065CF55 /* ActionStand.h */,
+				4A6834141A7D1B2F0065CF55 /* ActionStand.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		4AC14FE91A7CE43A000EDB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC14FEE1A7CE43A000EDB1F /* libJKGameKit.a */,
+				4AC14FF01A7CE43A000EDB1F /* JKGameKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4AEFD3171A7CDF980067AB7B = {
 			isa = PBXGroup;
 			children = (
+				4A1BA05C1A802342009B63BF /* libxml2.2.dylib */,
 				4AEFD3221A7CDF980067AB7B /* Puppyteer */,
 				4AEFD3411A7CDF980067AB7B /* PuppyteerTests */,
 				4AEFD3211A7CDF980067AB7B /* Products */,
+				4AFA50E41A7CE49E00D85E02 /* Libs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,16 +260,15 @@
 		4AEFD3221A7CDF980067AB7B /* Puppyteer */ = {
 			isa = PBXGroup;
 			children = (
+				4AEFD3321A7CDF980067AB7B /* Main.storyboard */,
+				4AEFD3371A7CDF980067AB7B /* LaunchScreen.xib */,
 				4AEFD3271A7CDF980067AB7B /* AppDelegate.h */,
 				4AEFD3281A7CDF980067AB7B /* AppDelegate.m */,
-				4AEFD32A1A7CDF980067AB7B /* GameScene.h */,
-				4AEFD32B1A7CDF980067AB7B /* GameScene.m */,
-				4AEFD32D1A7CDF980067AB7B /* GameScene.sks */,
 				4AEFD32F1A7CDF980067AB7B /* GameViewController.h */,
 				4AEFD3301A7CDF980067AB7B /* GameViewController.m */,
-				4AEFD3321A7CDF980067AB7B /* Main.storyboard */,
-				4AEFD3351A7CDF980067AB7B /* Images.xcassets */,
-				4AEFD3371A7CDF980067AB7B /* LaunchScreen.xib */,
+				4A6833E61A7CEA920065CF55 /* Common */,
+				4AFA50E71A7CE64B00D85E02 /* Game classes */,
+				4AFA50E61A7CE5F000D85E02 /* Resources */,
 				4AEFD3231A7CDF980067AB7B /* Supporting Files */,
 			);
 			path = Puppyteer;
@@ -125,6 +298,36 @@
 				4AEFD3431A7CDF980067AB7B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AFA50E41A7CE49E00D85E02 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4AC14FE81A7CE43A000EDB1F /* JKGameKit.xcodeproj */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		4AFA50E61A7CE5F000D85E02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A1BA0621A8151AA009B63BF /* HudImages.atlas */,
+				4A1BA0601A815156009B63BF /* SharedImages.atlas */,
+				4AEFD3351A7CDF980067AB7B /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4AFA50E71A7CE64B00D85E02 /* Game classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A6833E31A7CEA850065CF55 /* HudNode.h */,
+				4A6833E41A7CEA850065CF55 /* HudNode.m */,
+				4A6834051A7CF1B70065CF55 /* Scenes */,
+				4A4296851A7EC2D6008DFC13 /* Levels */,
+				4A6833F11A7CEFDB0065CF55 /* Plugins */,
+			);
+			name = "Game classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +397,12 @@
 			mainGroup = 4AEFD3171A7CDF980067AB7B;
 			productRefGroup = 4AEFD3211A7CDF980067AB7B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4AC14FE91A7CE43A000EDB1F /* Products */;
+					ProjectRef = 4AC14FE81A7CE43A000EDB1F /* JKGameKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4AEFD31F1A7CDF980067AB7B /* Puppyteer */,
@@ -202,6 +411,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4AC14FEE1A7CE43A000EDB1F /* libJKGameKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJKGameKit.a;
+			remoteRef = 4AC14FED1A7CE43A000EDB1F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4AC14FF01A7CE43A000EDB1F /* JKGameKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JKGameKitTests.xctest;
+			remoteRef = 4AC14FEF1A7CE43A000EDB1F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4AEFD31E1A7CDF980067AB7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -209,7 +435,8 @@
 			files = (
 				4AEFD3391A7CDF980067AB7B /* LaunchScreen.xib in Resources */,
 				4AEFD3361A7CDF980067AB7B /* Images.xcassets in Resources */,
-				4AEFD32E1A7CDF980067AB7B /* GameScene.sks in Resources */,
+				4A1BA0611A815156009B63BF /* SharedImages.atlas in Resources */,
+				4A1BA0631A8151AA009B63BF /* HudImages.atlas in Resources */,
 				4AEFD3341A7CDF980067AB7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,9 +455,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6833FC1A7CF02B0065CF55 /* PluginContactHandlerHeroJumpSensor.m in Sources */,
 				4AEFD3311A7CDF980067AB7B /* GameViewController.m in Sources */,
+				4A6834091A7D14B30065CF55 /* ActionBase.m in Sources */,
+				4A6834041A7CF05A0065CF55 /* PluginTouchHandlerHudButton.m in Sources */,
+				4A6833F41A7CEFF20065CF55 /* PluginAnimationHero.m in Sources */,
+				4A4296891A7EC394008DFC13 /* GameLevel.m in Sources */,
 				4AEFD3291A7CDF980067AB7B /* AppDelegate.m in Sources */,
+				4A68340C1A7D151F0065CF55 /* ActionRun.m in Sources */,
+				4A6834001A7CF03D0065CF55 /* PluginCtrlHero.m in Sources */,
+				4A6834121A7D16100065CF55 /* ActionJump.m in Sources */,
+				4A6833FB1A7CF02B0065CF55 /* PluginContactHandlerHero.m in Sources */,
+				4A68340F1A7D15D20065CF55 /* ActionWait.m in Sources */,
+				4A6834151A7D1B2F0065CF55 /* ActionStand.m in Sources */,
+				4A6833E51A7CEA850065CF55 /* HudNode.m in Sources */,
 				4AEFD32C1A7CDF980067AB7B /* GameScene.m in Sources */,
+				4A6833EF1A7CEAA90065CF55 /* GameData.m in Sources */,
+				4A6833F01A7CEAA90065CF55 /* NodeFactory.m in Sources */,
 				4AEFD3261A7CDF980067AB7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +596,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../Lib/JKGameKit\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = Puppyteer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,8 +613,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../Lib/JKGameKit\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = Puppyteer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -424,6 +679,7 @@
 				4AEFD34A1A7CDF980067AB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AEFD34B1A7CDF980067AB7B /* Build configuration list for PBXNativeTarget "PuppyteerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +688,7 @@
 				4AEFD34D1A7CDF980067AB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
